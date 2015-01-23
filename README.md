@@ -4,8 +4,9 @@ Um mapa com dados do OpenStreetMap sobre a infra-estrutura cicloviÃ¡ria da RegiÃ
 
 ## OpenStreetMap
 
-Para buscar os dados, rodamos a busca abaixo no Overpass e salvamos o GeoJSON:
+Para buscar os dados, rodamos a busca abaixo no Overpass-Turbo (http://overpass-turbo.eu/) e salvamos o GeoJSON:
 
+```
 /*
 This shows cycleways, cycleroutes and other bicycle infra-structure.
 */
@@ -37,3 +38,4 @@ This shows cycleways, cycleroutes and other bicycle infra-structure.
 out body;
 >;
 out skel qt;
+```
